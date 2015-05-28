@@ -2,10 +2,9 @@
 
 {% block content %}
 'yo'
+<ul>
 {% verbatim %}
-    <div ng-repeat="item from mc.items">
-    {{ mc.items }}
-    {{ item.name}}
-</div>
+    <li ng-repeat="item in mc.items" value="{{ item.name}}"><input type="checkbox">{{ item.name}}</li>
 {% endverbatim %}
+</ul>
 {% endblock content %}

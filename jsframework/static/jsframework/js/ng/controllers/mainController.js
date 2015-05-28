@@ -6,7 +6,7 @@ app.controller('mainController', function($http){
     .then(function(data){
         console.log('connected to api')
         console.log(data);
-        mc.items = data;
+        mc.items = data.data;
     })
 
 });
