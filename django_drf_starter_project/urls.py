@@ -17,12 +17,12 @@ from django.conf import settings
 from django.conf.urls import include, url
 from django.conf.urls.static import static
 from django.contrib import admin
-from jsframework import urls as j_urls
+from app import urls as a_urls
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'jsframework.views.index', name='index'),
-    url(r'^', include(j_urls)),
+    url(r'^', include(a_urls)),
 ]
 
 if settings.DEBUG:
