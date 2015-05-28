@@ -15,6 +15,9 @@ Retrieving logs...
 2015-05-28 19:46:03,403 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-tf3jpp3am3/_runtime/versions/manifest_1432842337783
 2015-05-28 19:46:03,464 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
 2015-05-28 19:46:03,572 [INFO] Downloaded version label 60cd from s3 key <Key: elasticbeanstalk-us-west-2-354521300473,resources/environments/e-tf3jpp3am3/_runtime/_versions/app/60cd>
+2015-05-28 21:03:14,054 [INFO] Version manifest file name already known. The latest version manifest file key is resources/environments/e-tf3jpp3am3/_runtime/versions/manifest_1432846952131
+2015-05-28 21:03:14,128 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-05-28 21:03:14,207 [INFO] Downloaded version label 9a25 from s3 key <Key: elasticbeanstalk-us-west-2-354521300473,resources/environments/e-tf3jpp3am3/_runtime/_versions/app/9a25>
 
 
 
@@ -84,28 +87,6 @@ Retrieving logs...
 -------------------------------------
 /var/log/httpd/access_log
 -------------------------------------
-127.0.0.1 - - [28/May/2015:18:06:55 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
-127.0.0.1 - - [28/May/2015:18:27:05 +0000] "GET / HTTP/1.1" 200 1388 "-" "Python-urllib/2.7"
-172.31.21.92 - - [28/May/2015:18:31:34 +0000] "GET / HTTP/1.1" 200 1388 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
-172.31.21.92 - - [28/May/2015:18:31:35 +0000] "GET /static/app/css/app.css HTTP/1.1" 404 220 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
-172.31.21.92 - - [28/May/2015:18:31:35 +0000] "GET /static/jsframework/js/angular.1.3.15.min.js HTTP/1.1" 404 241 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
-172.31.21.92 - - [28/May/2015:18:31:35 +0000] "GET /static/jsframework/js/angular-route.1.3.15.js HTTP/1.1" 404 243 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
-172.31.21.92 - - [28/May/2015:18:31:35 +0000] "GET /static/jsframework/js/ng/apps/app.js HTTP/1.1" 404 234 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
-172.31.21.92 - - [28/May/2015:18:31:35 +0000] "GET /static/jsframework/js/ng/controllers/mainController.js HTTP/1.1" 404 252 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
-172.31.21.92 - - [28/May/2015:18:31:36 +0000] "GET /favicon.ico HTTP/1.1" 404 3817 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
-172.31.21.92 - - [28/May/2015:18:31:44 +0000] "GET /static/app/css/app.css HTTP/1.1" 404 220 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
-::1 - - [28/May/2015:18:32:10 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
-::1 - - [28/May/2015:18:32:11 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
-::1 - - [28/May/2015:18:32:35 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
-::1 - - [28/May/2015:18:32:36 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
-::1 - - [28/May/2015:18:32:37 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
-::1 - - [28/May/2015:18:32:38 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
-::1 - - [28/May/2015:18:32:39 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
-::1 - - [28/May/2015:18:32:40 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
-::1 - - [28/May/2015:18:32:41 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
-::1 - - [28/May/2015:18:32:42 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
-::1 - - [28/May/2015:18:32:44 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
-::1 - - [28/May/2015:18:32:46 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
 ::1 - - [28/May/2015:18:32:49 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
 127.0.0.1 - - [28/May/2015:20:05:54 +0000] "GET / HTTP/1.1" 200 1388 "-" "Python-urllib/2.7"
 172.31.21.92 - - [28/May/2015:20:08:59 +0000] "GET / HTTP/1.1" 200 1388 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
@@ -165,12 +146,105 @@ Retrieving logs...
 ::1 - - [28/May/2015:20:30:41 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
 ::1 - - [28/May/2015:20:30:45 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
 ::1 - - [28/May/2015:20:30:46 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+172.31.21.92 - - [28/May/2015:20:37:03 +0000] "GET /manager/html HTTP/1.1" 404 3802 "-" "Mozilla/3.0 (compatible; Indy Library)"
+172.31.21.92 - - [28/May/2015:20:39:12 +0000] "GET /manager/html HTTP/1.1" 404 3802 "-" "Mozilla/3.0 (compatible; Indy Library)"
+172.31.38.212 - - [28/May/2015:20:39:27 +0000] "GET /manager/html HTTP/1.1" 404 3802 "-" "Mozilla/3.0 (compatible; Indy Library)"
+::1 - - [28/May/2015:20:40:27 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:20:40:28 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:20:40:32 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:20:40:33 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+172.31.38.212 - - [28/May/2015:20:42:47 +0000] "GET /manager/html HTTP/1.1" 404 3802 "-" "Mozilla/3.0 (compatible; Indy Library)"
+172.31.38.212 - - [28/May/2015:21:03:59 +0000] "GET / HTTP/1.1" 200 1388 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:00 +0000] "GET /static/app/css/app.css HTTP/1.1" 404 220 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:00 +0000] "GET /static/jsframework/js/angular.1.3.15.min.js HTTP/1.1" 404 241 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:00 +0000] "GET /static/jsframework/js/ng/apps/app.js HTTP/1.1" 404 234 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:00 +0000] "GET /static/jsframework/js/ng/controllers/mainController.js HTTP/1.1" 404 252 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:00 +0000] "GET /static/jsframework/js/angular-route.1.3.15.js HTTP/1.1" 404 243 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:02 +0000] "GET / HTTP/1.1" 200 1388 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:03 +0000] "GET /static/app/css/app.css HTTP/1.1" 404 220 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:03 +0000] "GET /static/jsframework/js/ng/apps/app.js HTTP/1.1" 404 234 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:03 +0000] "GET /static/jsframework/js/angular.1.3.15.min.js HTTP/1.1" 404 241 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:03 +0000] "GET /static/jsframework/js/angular-route.1.3.15.js HTTP/1.1" 404 243 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:03 +0000] "GET /static/jsframework/js/ng/controllers/mainController.js HTTP/1.1" 404 252 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+::1 - - [28/May/2015:21:04:08 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:21:04:09 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:21:04:17 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+172.31.38.212 - - [28/May/2015:21:04:39 +0000] "GET / HTTP/1.1" 200 1388 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:39 +0000] "GET /static/jsframework/js/angular.1.3.15.min.js HTTP/1.1" 404 241 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:39 +0000] "GET /static/app/css/app.css HTTP/1.1" 404 220 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:39 +0000] "GET /static/jsframework/js/angular-route.1.3.15.js HTTP/1.1" 404 243 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:39 +0000] "GET /static/jsframework/js/ng/controllers/mainController.js HTTP/1.1" 404 252 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+172.31.38.212 - - [28/May/2015:21:04:39 +0000] "GET /static/jsframework/js/ng/apps/app.js HTTP/1.1" 404 234 "http://app-dev-02.elasticbeanstalk.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36"
+::1 - - [28/May/2015:21:05:00 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:21:05:01 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:21:05:02 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:21:05:03 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:21:05:04 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:21:05:05 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:21:05:06 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:21:05:07 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:21:05:08 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:21:05:09 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:21:05:10 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
+::1 - - [28/May/2015:21:05:11 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.12 (Amazon) mod_wsgi/3.5 Python/2.7.9 (internal dummy connection)"
 
 
 
 -------------------------------------
 /var/log/eb-activity.log
 -------------------------------------
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+  DEPRECATION: --use-mirrors has been deprecated and will be removed in the future. Explicit uses of --index-url and/or --extra-index-url is suggested.
+  Requirement already satisfied (use --upgrade to upgrade): awsebcli==3.4.4 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 1))
+  Requirement already satisfied (use --upgrade to upgrade): cement==2.4.0 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 2))
+  Requirement already satisfied (use --upgrade to upgrade): Django==1.8.2 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 3))
+  Requirement already satisfied (use --upgrade to upgrade): djangorestframework==3.1.2 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 4))
+  Requirement already satisfied (use --upgrade to upgrade): docker-py==1.1.0 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 5))
+  Requirement already satisfied (use --upgrade to upgrade): dockerpty==0.3.3 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 6))
+  Requirement already satisfied (use --upgrade to upgrade): docopt==0.6.2 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 7))
+  Requirement already satisfied (use --upgrade to upgrade): jmespath==0.7.1 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 8))
+  Requirement already satisfied (use --upgrade to upgrade): pathspec==0.3.3 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 9))
+  Requirement already satisfied (use --upgrade to upgrade): psycopg2==2.6 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 10))
+  Requirement already satisfied (use --upgrade to upgrade): python-dateutil==2.4.2 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 11))
+  Requirement already satisfied (use --upgrade to upgrade): PyYAML==3.11 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 12))
+  Requirement already satisfied (use --upgrade to upgrade): requests==2.6.2 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 13))
+  Requirement already satisfied (use --upgrade to upgrade): six==1.9.0 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 14))
+  Requirement already satisfied (use --upgrade to upgrade): texttable==0.8.3 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 15))
+  Requirement already satisfied (use --upgrade to upgrade): websocket-client==0.31.0 in /opt/python/run/venv/lib/python2.7/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 16))
+[2015-05-28T21:03:17.732Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0/AppDeployPreHook/04configen.py] : Starting activity...
+[2015-05-28T21:03:19.107Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0/AppDeployPreHook/04configen.py] : Completed activity.
+[2015-05-28T21:03:19.107Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0/AppDeployPreHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/pre.
+[2015-05-28T21:03:19.107Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild] : Starting activity...
+[2015-05-28T21:03:19.434Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Starting activity...
+[2015-05-28T21:03:19.435Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild/postbuild_0_app] : Starting activity...
+[2015-05-28T21:03:20.306Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild/postbuild_0_app/Test for Command 01_migrate] : Starting activity...
+[2015-05-28T21:03:20.309Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild/postbuild_0_app/Test for Command 01_migrate] : Completed activity. Result:
+  
+  Completed successfully.
+[2015-05-28T21:03:20.310Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild/postbuild_0_app/Command 01_migrate] : Starting activity...
+[2015-05-28T21:03:20.889Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild/postbuild_0_app/Command 01_migrate] : Activity execution failed, because: Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+  execute_from_command_line(sys.argv)
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/core/management/__init__.py", line 338, in execute_from_command_line
+  utility.execute()
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/core/management/__init__.py", line 330, in execute
+  self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/core/management/base.py", line 390, in run_from_argv
+  self.execute(*args, **cmd_options)
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/core/management/base.py", line 441, in execute
+  output = self.handle(*args, **options)
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/core/management/commands/migrate.py", line 93, in handle
+  executor = MigrationExecutor(connection, self.migration_progress_callback)
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/migrations/executor.py", line 19, in __init__
+  self.loader = MigrationLoader(self.connection)
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/migrations/loader.py", line 47, in __init__
+  self.build_graph()
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/migrations/loader.py", line 180, in build_graph
+  self.applied_migrations = recorder.applied_migrations()
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/migrations/recorder.py", line 59, in applied_migrations
+  self.ensure_schema()
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/migrations/recorder.py", line 49, in ensure_schema
   if self.Migration._meta.db_table in self.connection.introspection.table_names(self.connection.cursor()):
   File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/backends/base/base.py", line 162, in cursor
   cursor = self.make_debug_cursor(self._cursor())
@@ -195,188 +269,136 @@ Retrieving logs...
    (ElasticBeanstalk::ExternalInvocationError)
 
 
-[2015-05-28T19:46:09.876Z] INFO  [27563] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild/postbuild_0_app/Command 01_migrate] : Activity failed.
-[2015-05-28T19:46:09.876Z] INFO  [27563] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild/postbuild_0_app] : Activity failed.
-[2015-05-28T19:46:09.876Z] INFO  [27563] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Activity failed.
-[2015-05-28T19:46:09.892Z] INFO  [27563] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild] : Activity failed.
-[2015-05-28T19:46:09.892Z] INFO  [27563] - [CMD-AppDeploy/AppDeployStage0] : Activity failed.
-[2015-05-28T19:46:09.892Z] INFO  [27563] - [CMD-AppDeploy] : Completed activity. Result:
+[2015-05-28T21:03:20.889Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild/postbuild_0_app/Command 01_migrate] : Activity failed.
+[2015-05-28T21:03:20.889Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild/postbuild_0_app] : Activity failed.
+[2015-05-28T21:03:20.889Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Activity failed.
+[2015-05-28T21:03:20.906Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0/EbExtensionPostBuild] : Activity failed.
+[2015-05-28T21:03:20.906Z] INFO  [28592] - [CMD-AppDeploy/AppDeployStage0] : Activity failed.
+[2015-05-28T21:03:20.906Z] INFO  [28592] - [CMD-AppDeploy] : Completed activity. Result:
   Command CMD-AppDeploy failed.
-[2015-05-28T20:05:48.012Z] INFO  [27916] - [CMD-ConfigDeploy] : Starting activity...
-[2015-05-28T20:05:48.343Z] INFO  [27916] - [CMD-ConfigDeploy/AddonsBefore] : Starting activity...
-[2015-05-28T20:05:48.343Z] INFO  [27916] - [CMD-ConfigDeploy/AddonsBefore] : Completed activity.
-[2015-05-28T20:05:48.343Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage0] : Starting activity...
-[2015-05-28T20:05:48.343Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage0/InfraWriteConfig] : Starting activity...
-[2015-05-28T20:05:48.345Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage0/InfraWriteConfig] : Completed activity. Result:
-  Recreated directory /opt/elasticbeanstalk/deploy/configuration/.
-  Generate appsource url file at /opt/elasticbeanstalk/deploy/configuration/appsourceurl.
-  Generate container config file at /opt/elasticbeanstalk/deploy/configuration/containerconfiguration.
-[2015-05-28T20:05:48.346Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage0/ConfigDeployPreHook] : Starting activity...
-[2015-05-28T20:05:48.346Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage0/ConfigDeployPreHook/01generate.py] : Starting activity...
-[2015-05-28T20:05:50.041Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage0/ConfigDeployPreHook/01generate.py] : Completed activity.
-[2015-05-28T20:05:50.041Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage0/ConfigDeployPreHook] : Completed activity. Result:
-  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/configdeploy/pre.
-[2015-05-28T20:05:50.041Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage0] : Completed activity. Result:
-  Command CMD-ConfigDeploy stage 0 completed.
-[2015-05-28T20:05:50.041Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage1] : Starting activity...
-[2015-05-28T20:05:50.041Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage1/ConfigDeployEnactHook] : Starting activity...
-[2015-05-28T20:05:50.041Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage1/ConfigDeployEnactHook/01flip.py] : Starting activity...
-[2015-05-28T20:05:54.998Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage1/ConfigDeployEnactHook/01flip.py] : Completed activity. Result:
-  httpd: stopped
-  httpd: started
-  httpd                            RUNNING   pid 27991, uptime 0:00:03
-[2015-05-28T20:05:54.998Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage1/ConfigDeployEnactHook] : Completed activity. Result:
-  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/configdeploy/enact.
-[2015-05-28T20:05:54.998Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage1/ConfigDeployPostHook] : Starting activity...
-[2015-05-28T20:05:54.998Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage1/ConfigDeployPostHook] : Completed activity. Result:
-  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/configdeploy/post.
-[2015-05-28T20:05:54.998Z] INFO  [27916] - [CMD-ConfigDeploy/ConfigDeployStage1] : Completed activity. Result:
-  Command CMD-ConfigDeploy stage 1 completed.
-[2015-05-28T20:05:54.998Z] INFO  [27916] - [CMD-ConfigDeploy/AddonsAfter] : Starting activity...
-[2015-05-28T20:05:54.998Z] INFO  [27916] - [CMD-ConfigDeploy/AddonsAfter/ConfigLogRotation] : Starting activity...
-[2015-05-28T20:05:54.999Z] INFO  [27916] - [CMD-ConfigDeploy/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
-[2015-05-28T20:05:55.091Z] INFO  [27916] - [CMD-ConfigDeploy/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
-  Disabled forced hourly log rotation.
-[2015-05-28T20:05:55.091Z] INFO  [27916] - [CMD-ConfigDeploy/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
-  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logpublish/hooks/config.
-[2015-05-28T20:05:55.091Z] INFO  [27916] - [CMD-ConfigDeploy/AddonsAfter] : Completed activity.
-[2015-05-28T20:05:55.091Z] INFO  [27916] - [CMD-ConfigDeploy] : Completed activity. Result:
-  Command CMD-ConfigDeploy succeeded.
-[2015-05-28T20:31:58.198Z] INFO  [28281] - [CMD-TailLogs] : Starting activity...
-[2015-05-28T20:31:58.474Z] INFO  [28281] - [CMD-TailLogs/AddonsBefore] : Starting activity...
-[2015-05-28T20:31:58.474Z] INFO  [28281] - [CMD-TailLogs/AddonsBefore] : Completed activity.
-[2015-05-28T20:31:58.474Z] INFO  [28281] - [CMD-TailLogs/TailLogs] : Starting activity...
-[2015-05-28T20:31:58.474Z] INFO  [28281] - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
-[2015-05-28T20:31:58.690Z] INFO  [28281] - [CMD-TailLogs/TailLogs/TailLogs] : Completed activity.
-[2015-05-28T20:31:58.690Z] INFO  [28281] - [CMD-TailLogs/TailLogs] : Completed activity. Result:
+[2015-05-28T21:04:49.255Z] INFO  [28790] - [CMD-TailLogs] : Starting activity...
+[2015-05-28T21:04:49.535Z] INFO  [28790] - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2015-05-28T21:04:49.535Z] INFO  [28790] - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2015-05-28T21:04:49.535Z] INFO  [28790] - [CMD-TailLogs/TailLogs] : Starting activity...
+[2015-05-28T21:04:49.536Z] INFO  [28790] - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+[2015-05-28T21:04:49.747Z] INFO  [28790] - [CMD-TailLogs/TailLogs/TailLogs] : Completed activity.
+[2015-05-28T21:04:49.747Z] INFO  [28790] - [CMD-TailLogs/TailLogs] : Completed activity. Result:
   Command CMD-TailLogs stage 0 completed.
-[2015-05-28T20:31:58.690Z] INFO  [28281] - [CMD-TailLogs/AddonsAfter] : Starting activity...
-[2015-05-28T20:31:58.690Z] INFO  [28281] - [CMD-TailLogs/AddonsAfter] : Completed activity.
-[2015-05-28T20:31:58.690Z] INFO  [28281] - [CMD-TailLogs] : Completed activity. Result:
+[2015-05-28T21:04:49.747Z] INFO  [28790] - [CMD-TailLogs/AddonsAfter] : Starting activity...
+[2015-05-28T21:04:49.747Z] INFO  [28790] - [CMD-TailLogs/AddonsAfter] : Completed activity.
+[2015-05-28T21:04:49.747Z] INFO  [28790] - [CMD-TailLogs] : Completed activity. Result:
   Command CMD-TailLogs succeeded.
-[2015-05-28T20:36:24.476Z] INFO  [28325] - [CMD-TailLogs] : Starting activity...
-[2015-05-28T20:36:24.751Z] INFO  [28325] - [CMD-TailLogs/AddonsBefore] : Starting activity...
-[2015-05-28T20:36:24.751Z] INFO  [28325] - [CMD-TailLogs/AddonsBefore] : Completed activity.
-[2015-05-28T20:36:24.751Z] INFO  [28325] - [CMD-TailLogs/TailLogs] : Starting activity...
-[2015-05-28T20:36:24.751Z] INFO  [28325] - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
-[2015-05-28T20:36:24.977Z] INFO  [28325] - [CMD-TailLogs/TailLogs/TailLogs] : Completed activity.
-[2015-05-28T20:36:24.977Z] INFO  [28325] - [CMD-TailLogs/TailLogs] : Completed activity. Result:
-  Command CMD-TailLogs stage 0 completed.
-[2015-05-28T20:36:24.977Z] INFO  [28325] - [CMD-TailLogs/AddonsAfter] : Starting activity...
-[2015-05-28T20:36:24.977Z] INFO  [28325] - [CMD-TailLogs/AddonsAfter] : Completed activity.
-[2015-05-28T20:36:24.977Z] INFO  [28325] - [CMD-TailLogs] : Completed activity. Result:
-  Command CMD-TailLogs succeeded.
-[2015-05-28T20:36:46.052Z] INFO  [28345] - [CMD-TailLogs] : Starting activity...
-[2015-05-28T20:36:46.330Z] INFO  [28345] - [CMD-TailLogs/AddonsBefore] : Starting activity...
-[2015-05-28T20:36:46.330Z] INFO  [28345] - [CMD-TailLogs/AddonsBefore] : Completed activity.
-[2015-05-28T20:36:46.330Z] INFO  [28345] - [CMD-TailLogs/TailLogs] : Starting activity...
-[2015-05-28T20:36:46.330Z] INFO  [28345] - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+[2015-05-28T21:05:18.036Z] INFO  [28814] - [CMD-TailLogs] : Starting activity...
+[2015-05-28T21:05:18.317Z] INFO  [28814] - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2015-05-28T21:05:18.317Z] INFO  [28814] - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2015-05-28T21:05:18.317Z] INFO  [28814] - [CMD-TailLogs/TailLogs] : Starting activity...
+[2015-05-28T21:05:18.317Z] INFO  [28814] - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
 
 
 
 -------------------------------------
 /var/log/eb-commandprocessor.log
 -------------------------------------
-[2015-05-28T20:05:48.343Z] INFO  [27916] : Running AddonsBefore for command CMD-ConfigDeploy...
-[2015-05-28T20:05:48.343Z] DEBUG [27916] : Running stages of Command CMD-ConfigDeploy from stage 0 to stage 1...
-[2015-05-28T20:05:48.343Z] INFO  [27916] : Running stage 0 of command CMD-ConfigDeploy...
-[2015-05-28T20:05:48.343Z] DEBUG [27916] : Loaded 2 actions for stage 0.
-[2015-05-28T20:05:48.343Z] INFO  [27916] : Running 1 of 2 actions: InfraWriteConfig...
-[2015-05-28T20:05:48.346Z] INFO  [27916] : Running 2 of 2 actions: ConfigDeployPreHook...
-[2015-05-28T20:05:50.041Z] INFO  [27916] : Running stage 1 of command CMD-ConfigDeploy...
-[2015-05-28T20:05:50.041Z] DEBUG [27916] : Loaded 2 actions for stage 1.
-[2015-05-28T20:05:50.041Z] INFO  [27916] : Running 1 of 2 actions: ConfigDeployEnactHook...
-[2015-05-28T20:05:54.998Z] INFO  [27916] : Running 2 of 2 actions: ConfigDeployPostHook...
-[2015-05-28T20:05:54.998Z] INFO  [27916] : Running AddonsAfter for command CMD-ConfigDeploy...
-[2015-05-28T20:05:55.091Z] INFO  [27916] : Command CMD-ConfigDeploy succeeded!
-[2015-05-28T20:05:55.091Z] INFO  [27916] : Command processor returning results: 
-{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
-[2015-05-28T20:31:58.196Z] DEBUG [28281] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
-[2015-05-28T20:31:58.196Z] INFO  [28281] : Received command CMD-TailLogs: {"command_name":"CMD-TailLogs","execution_data":"{\"aws_access_key_id\":\"ASIAIEUH7JR5BGK455BQ\",\"policy\":\"eyJjb25kaXRpb25zIjpbWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXB1Ymxpc2hfbWVjaGFuaXNtIiwiIl0sWyJlcSIsIiRhY2wiLCJwcml2YXRlIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJyZXNvdXJjZXNcL2Vudmlyb25tZW50c1wvbG9nc1wvIl0sWyJlcSIsIiRidWNrZXQiLCJlbGFzdGljYmVhbnN0YWxrLXVzLXdlc3QtMi0zNTQ1MjEzMDA0NzMiXSxbInN0YXJ0cy13aXRoIiwiJHgtYW16LXNlY3VyaXR5LXRva2VuIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWZpbGVfbmFtZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkeC1hbXotbWV0YS10aW1lX3N0YW1wIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWJhdGNoX2lkIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRDb250ZW50LVR5cGUiLCIiXV0sImV4cGlyYXRpb24iOiIyMDE1LTA1LTI4VDIxOjAxOjU2LjQ1NloifQ==\",\"security_token\":\"AQoDYXdzEDYaoAJsbrhMg6kTWMhdTfHd+6Ozvvtq9nITSl+GXoMOjtkgy8N9pZFeU6Pvw7zVUZ70MCJMQwAuTMZrPNvdXZpZy\\\/ZCapibpQH25sdAauTRe7XVMEVLeMJtgG8yNEUZX1SaTJfENU6LTiYqy8Vyu320fohpNpyCgil1PwhGWEtuPaeZ4bRmXwAykbR5sipxCP8FLMXFXH39s3v0lUWvjM63QB+fd11eWYKbkxfSj8HIyVNt7ridMHwqmzC+mmIZOZx004GD3+9DuYLE6QcBdf+WrWKpQDSLl9zNn1NkwjNRBW4E\\\/PrZgCxBGybtLPDqryTUgWyJEJCoc7XHHIIFR+uA2NJCIQXYyiXkS5JiOG6O4Z1s7jJNJfDnVo62WKCGJ6rLS9wgvPadqwU=\",\"signature\":\"7tHJinZTpMJQUyflTEGuyCos4kc=\"}","request_id":"953b643d-0578-11e5-bfd0-a33de3eee20d","resource_name":"AWSEBAutoScalingGroup","data":"953b643d-0578-11e5-bfd0-a33de3eee20d","instance_ids":["i-58e2bcae"],"command_timeout":"600","api_version":"1.0"}
-[2015-05-28T20:31:58.196Z] DEBUG [28281] : Checking if the command processor should execute...
-[2015-05-28T20:31:58.198Z] DEBUG [28281] : Checking whether the command is applicable to instance (i-58e2bcae)..
-[2015-05-28T20:31:58.198Z] INFO  [28281] : Command is applicable to this instance (i-58e2bcae)..
-[2015-05-28T20:31:58.198Z] DEBUG [28281] : Checking if the received command stage is valid..
-[2015-05-28T20:31:58.198Z] INFO  [28281] : No stage_num in command. Valid stage..
-[2015-05-28T20:31:58.198Z] INFO  [28281] : Command processor should execute command.
-[2015-05-28T20:31:58.198Z] DEBUG [28281] : Storing current stage..
-[2015-05-28T20:31:58.198Z] DEBUG [28281] : Stage_num does not exist. Not saving null stage. Returning..
-[2015-05-28T20:31:58.198Z] INFO  [28281] : Executing command: CMD-TailLogs...
-[2015-05-28T20:31:58.198Z] DEBUG [28281] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
-[2015-05-28T20:31:58.198Z] DEBUG [28281] : Refreshing metadata..
-[2015-05-28T20:31:58.471Z] DEBUG [28281] : Refreshed environment metadata.
-[2015-05-28T20:31:58.471Z] DEBUG [28281] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
-[2015-05-28T20:31:58.472Z] DEBUG [28281] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
-[2015-05-28T20:31:58.472Z] INFO  [28281] : Found enabled addons: ["logpublish"].
-[2015-05-28T20:31:58.473Z] INFO  [28281] : Updating Command definition of addon logpublish.
-[2015-05-28T20:31:58.473Z] DEBUG [28281] : Loaded definition of Command CMD-TailLogs.
-[2015-05-28T20:31:58.473Z] INFO  [28281] : Executing command CMD-TailLogs activities...
-[2015-05-28T20:31:58.474Z] DEBUG [28281] : Setting environment variables..
-[2015-05-28T20:31:58.474Z] INFO  [28281] : Running AddonsBefore for command CMD-TailLogs...
-[2015-05-28T20:31:58.474Z] DEBUG [28281] : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
-[2015-05-28T20:31:58.474Z] INFO  [28281] : Running stage 0 of command CMD-TailLogs...
-[2015-05-28T20:31:58.474Z] DEBUG [28281] : Loaded 1 actions for stage 0.
-[2015-05-28T20:31:58.474Z] INFO  [28281] : Running 1 of 1 actions: TailLogs...
-[2015-05-28T20:31:58.690Z] INFO  [28281] : Running AddonsAfter for command CMD-TailLogs...
-[2015-05-28T20:31:58.690Z] INFO  [28281] : Command CMD-TailLogs succeeded!
-[2015-05-28T20:31:58.691Z] INFO  [28281] : Command processor returning results: 
-{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[{"msg":"[Instance: i-58e2bcae] Successfully finished tailing 7 log(s)","severity":"INFO","timestamp":1432845118690}]}]}
-[2015-05-28T20:36:24.474Z] DEBUG [28325] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
-[2015-05-28T20:36:24.474Z] INFO  [28325] : Received command CMD-TailLogs: {"command_name":"CMD-TailLogs","execution_data":"{\"aws_access_key_id\":\"ASIAINPS75F3JUWNKKXQ\",\"policy\":\"eyJjb25kaXRpb25zIjpbWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXB1Ymxpc2hfbWVjaGFuaXNtIiwiIl0sWyJlcSIsIiRhY2wiLCJwcml2YXRlIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJyZXNvdXJjZXNcL2Vudmlyb25tZW50c1wvbG9nc1wvIl0sWyJlcSIsIiRidWNrZXQiLCJlbGFzdGljYmVhbnN0YWxrLXVzLXdlc3QtMi0zNTQ1MjEzMDA0NzMiXSxbInN0YXJ0cy13aXRoIiwiJHgtYW16LXNlY3VyaXR5LXRva2VuIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWZpbGVfbmFtZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkeC1hbXotbWV0YS10aW1lX3N0YW1wIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWJhdGNoX2lkIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRDb250ZW50LVR5cGUiLCIiXV0sImV4cGlyYXRpb24iOiIyMDE1LTA1LTI4VDIxOjA2OjIyLjYyMloifQ==\",\"security_token\":\"AQoDYXdzEDYaoALqbLaKB0pZzms2tv3aJmUyX4AnsIvNw23ad6EaJkvZPzsFIYXUmVnn0r247+1sf0tiuvingLzir2bVXvjl5APqmwc8QUkZ1Clza+0yxFSJWK46yhNq3Kgnc1Lef4mlAdN88v9FZF5BksFpY0gkOHy9G72EnvuEGitDwhTbfPCARdEJm5E8tkkZ+H1w++sQqvGmYF6Bg\\\/Kp8dmkRc0S5GK1ZKhZT9i+imFXKF\\\/PPo9cWnm7vjBo+vEP4zDlX0er7iQfTYbTEuT\\\/Xnaylu+Rqi5TQhlnZmd2wxxObEP740IEon3g0+u+ZjW7bOEoqACKBNrut74OS8jqSolVNWNmIfsnHApgUDdIeOyG3QBPWLz0OJUdyoeU\\\/6sMXlPljLRqvp4gxvidqwU=\",\"signature\":\"\\\/HQ4cnhPcPkTGdWmurLTHlRuqRA=\"}","request_id":"33e3fff2-0579-11e5-95ee-cb0b0f048c7c","resource_name":"AWSEBAutoScalingGroup","data":"33e3fff2-0579-11e5-95ee-cb0b0f048c7c","instance_ids":["i-58e2bcae"],"command_timeout":"600","api_version":"1.0"}
-[2015-05-28T20:36:24.474Z] DEBUG [28325] : Checking if the command processor should execute...
-[2015-05-28T20:36:24.475Z] DEBUG [28325] : Checking whether the command is applicable to instance (i-58e2bcae)..
-[2015-05-28T20:36:24.475Z] INFO  [28325] : Command is applicable to this instance (i-58e2bcae)..
-[2015-05-28T20:36:24.475Z] DEBUG [28325] : Checking if the received command stage is valid..
-[2015-05-28T20:36:24.475Z] INFO  [28325] : No stage_num in command. Valid stage..
-[2015-05-28T20:36:24.475Z] INFO  [28325] : Command processor should execute command.
-[2015-05-28T20:36:24.475Z] DEBUG [28325] : Storing current stage..
-[2015-05-28T20:36:24.475Z] DEBUG [28325] : Stage_num does not exist. Not saving null stage. Returning..
-[2015-05-28T20:36:24.476Z] INFO  [28325] : Executing command: CMD-TailLogs...
-[2015-05-28T20:36:24.476Z] DEBUG [28325] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
-[2015-05-28T20:36:24.476Z] DEBUG [28325] : Refreshing metadata..
-[2015-05-28T20:36:24.748Z] DEBUG [28325] : Refreshed environment metadata.
-[2015-05-28T20:36:24.749Z] DEBUG [28325] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
-[2015-05-28T20:36:24.749Z] DEBUG [28325] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
-[2015-05-28T20:36:24.750Z] INFO  [28325] : Found enabled addons: ["logpublish"].
-[2015-05-28T20:36:24.751Z] INFO  [28325] : Updating Command definition of addon logpublish.
-[2015-05-28T20:36:24.751Z] DEBUG [28325] : Loaded definition of Command CMD-TailLogs.
-[2015-05-28T20:36:24.751Z] INFO  [28325] : Executing command CMD-TailLogs activities...
-[2015-05-28T20:36:24.751Z] DEBUG [28325] : Setting environment variables..
-[2015-05-28T20:36:24.751Z] INFO  [28325] : Running AddonsBefore for command CMD-TailLogs...
-[2015-05-28T20:36:24.751Z] DEBUG [28325] : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
-[2015-05-28T20:36:24.751Z] INFO  [28325] : Running stage 0 of command CMD-TailLogs...
-[2015-05-28T20:36:24.751Z] DEBUG [28325] : Loaded 1 actions for stage 0.
-[2015-05-28T20:36:24.751Z] INFO  [28325] : Running 1 of 1 actions: TailLogs...
-[2015-05-28T20:36:24.977Z] INFO  [28325] : Running AddonsAfter for command CMD-TailLogs...
-[2015-05-28T20:36:24.977Z] INFO  [28325] : Command CMD-TailLogs succeeded!
-[2015-05-28T20:36:24.978Z] INFO  [28325] : Command processor returning results: 
-{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[{"msg":"[Instance: i-58e2bcae] Successfully finished tailing 7 log(s)","severity":"INFO","timestamp":1432845384978}]}]}
-[2015-05-28T20:36:46.049Z] DEBUG [28345] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
-[2015-05-28T20:36:46.050Z] INFO  [28345] : Received command CMD-TailLogs: {"command_name":"CMD-TailLogs","execution_data":"{\"aws_access_key_id\":\"ASIAJXDBD47ZE22OF6XA\",\"policy\":\"eyJjb25kaXRpb25zIjpbWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXB1Ymxpc2hfbWVjaGFuaXNtIiwiIl0sWyJlcSIsIiRhY2wiLCJwcml2YXRlIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJyZXNvdXJjZXNcL2Vudmlyb25tZW50c1wvbG9nc1wvIl0sWyJlcSIsIiRidWNrZXQiLCJlbGFzdGljYmVhbnN0YWxrLXVzLXdlc3QtMi0zNTQ1MjEzMDA0NzMiXSxbInN0YXJ0cy13aXRoIiwiJHgtYW16LXNlY3VyaXR5LXRva2VuIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWZpbGVfbmFtZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkeC1hbXotbWV0YS10aW1lX3N0YW1wIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWJhdGNoX2lkIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRDb250ZW50LVR5cGUiLCIiXV0sImV4cGlyYXRpb24iOiIyMDE1LTA1LTI4VDIxOjA2OjQ0LjIwNloifQ==\",\"security_token\":\"AQoDYXdzEDYaoAJ5VpL+1eJ6Xt+igNdMstFZh2ncvXKuRl49bZne9oN8PiWUOLQU74AO47iUXDYfZfSmonwsYWQKUogwpm42gPFsA5MClkJM76alaTTsrd28wbcoycVI3hUhuRQbMNs0WrsBXYZ99\\\/BIO8yFmroIvj3aXFHuOdh8uaMPfcpIQpO9PwYAOvA9PhLZ\\\/wZFQooZr63RemddLt6y3H6MJFBzKrKlrlsi0EHaO\\\/CiGfDLC0EuNhu\\\/9xZsgznhTvQCQWrA4jhO7QE+ACjKn3vBrZUHLWMXLWfoeG+LTq96SUYARLtzaZNtRiui0x1poHpznhDTr3uXoVG9xAKDDnXDrYYBmQ+3dgakFlic+AllHNXHhvBpsNXr2OHGktYJPZBSoAm\\\/3mQg3PidqwU=\",\"signature\":\"qCJEG4hpWC8VnZEuzO7B4a3HySE=\"}","request_id":"40c12720-0579-11e5-bfd3-07e2a37395e1","resource_name":"AWSEBAutoScalingGroup","data":"40c12720-0579-11e5-bfd3-07e2a37395e1","instance_ids":["i-58e2bcae"],"command_timeout":"600","api_version":"1.0"}
-[2015-05-28T20:36:46.050Z] DEBUG [28345] : Checking if the command processor should execute...
-[2015-05-28T20:36:46.051Z] DEBUG [28345] : Checking whether the command is applicable to instance (i-58e2bcae)..
-[2015-05-28T20:36:46.051Z] INFO  [28345] : Command is applicable to this instance (i-58e2bcae)..
-[2015-05-28T20:36:46.051Z] DEBUG [28345] : Checking if the received command stage is valid..
-[2015-05-28T20:36:46.051Z] INFO  [28345] : No stage_num in command. Valid stage..
-[2015-05-28T20:36:46.051Z] INFO  [28345] : Command processor should execute command.
-[2015-05-28T20:36:46.051Z] DEBUG [28345] : Storing current stage..
-[2015-05-28T20:36:46.051Z] DEBUG [28345] : Stage_num does not exist. Not saving null stage. Returning..
-[2015-05-28T20:36:46.052Z] INFO  [28345] : Executing command: CMD-TailLogs...
-[2015-05-28T20:36:46.052Z] DEBUG [28345] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
-[2015-05-28T20:36:46.052Z] DEBUG [28345] : Refreshing metadata..
-[2015-05-28T20:36:46.328Z] DEBUG [28345] : Refreshed environment metadata.
-[2015-05-28T20:36:46.328Z] DEBUG [28345] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
-[2015-05-28T20:36:46.328Z] DEBUG [28345] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
-[2015-05-28T20:36:46.329Z] INFO  [28345] : Found enabled addons: ["logpublish"].
-[2015-05-28T20:36:46.330Z] INFO  [28345] : Updating Command definition of addon logpublish.
-[2015-05-28T20:36:46.330Z] DEBUG [28345] : Loaded definition of Command CMD-TailLogs.
-[2015-05-28T20:36:46.330Z] INFO  [28345] : Executing command CMD-TailLogs activities...
-[2015-05-28T20:36:46.330Z] DEBUG [28345] : Setting environment variables..
-[2015-05-28T20:36:46.330Z] INFO  [28345] : Running AddonsBefore for command CMD-TailLogs...
-[2015-05-28T20:36:46.330Z] DEBUG [28345] : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
-[2015-05-28T20:36:46.330Z] INFO  [28345] : Running stage 0 of command CMD-TailLogs...
-[2015-05-28T20:36:46.330Z] DEBUG [28345] : Loaded 1 actions for stage 0.
-[2015-05-28T20:36:46.330Z] INFO  [28345] : Running 1 of 1 actions: TailLogs...
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/core/management/__init__.py", line 330, in execute
+  self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/core/management/base.py", line 390, in run_from_argv
+  self.execute(*args, **cmd_options)
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/core/management/base.py", line 441, in execute
+  output = self.handle(*args, **options)
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/core/management/commands/migrate.py", line 93, in handle
+  executor = MigrationExecutor(connection, self.migration_progress_callback)
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/migrations/executor.py", line 19, in __init__
+  self.loader = MigrationLoader(self.connection)
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/migrations/loader.py", line 47, in __init__
+  self.build_graph()
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/migrations/loader.py", line 180, in build_graph
+  self.applied_migrations = recorder.applied_migrations()
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/migrations/recorder.py", line 59, in applied_migrations
+  self.ensure_schema()
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/migrations/recorder.py", line 49, in ensure_schema
+  if self.Migration._meta.db_table in self.connection.introspection.table_names(self.connection.cursor()):
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/backends/base/base.py", line 162, in cursor
+  cursor = self.make_debug_cursor(self._cursor())
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/backends/base/base.py", line 135, in _cursor
+  self.ensure_connection()
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/backends/base/base.py", line 130, in ensure_connection
+  self.connect()
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/utils.py", line 97, in __exit__
+  six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/backends/base/base.py", line 130, in ensure_connection
+  self.connect()
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/backends/base/base.py", line 119, in connect
+  self.connection = self.get_new_connection(conn_params)
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/django/db/backends/postgresql_psycopg2/base.py", line 176, in get_new_connection
+  connection = Database.connect(**conn_params)
+  File "/opt/python/run/venv/local/lib/python2.7/site-packages/psycopg2/__init__.py", line 164, in connect
+  conn = _connect(dsn, connection_factory=connection_factory, async=async)
+  django.db.utils.OperationalError: could not connect to server: No such file or directory
+  Is the server running locally and accepting
+  connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?
+  
+   (ElasticBeanstalk::ExternalInvocationError)
+
+
+[2015-05-28T21:03:20.906Z] ERROR [28592] : Command CMD-AppDeploy failed!
+[2015-05-28T21:03:20.907Z] INFO  [28592] : Command processor returning results: 
+{"status":"FAILURE","api_version":"1.0","results":[{"status":"FAILURE","msg":"(TRUNCATED)...connection_factory=connection_factory, async=async)\ndjango.db.utils.OperationalError: could not connect to server: No such file or directory\nIs the server running locally and accepting\nconnections on Unix domain socket \"/var/run/postgresql/.s.PGSQL.5432\"?. \ncontainer_command 01_migrate in .ebextensions/02_python.config failed. For more detail, check /var/log/eb-activity.log using console or EB CLI","returncode":1,"events":[]}],"truncated":"true"}
+[2015-05-28T21:04:49.253Z] DEBUG [28790] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-05-28T21:04:49.254Z] INFO  [28790] : Received command CMD-TailLogs: {"command_name":"CMD-TailLogs","execution_data":"{\"aws_access_key_id\":\"ASIAIPKHWGDMOVW7DBUA\",\"policy\":\"eyJjb25kaXRpb25zIjpbWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXB1Ymxpc2hfbWVjaGFuaXNtIiwiIl0sWyJlcSIsIiRhY2wiLCJwcml2YXRlIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJyZXNvdXJjZXNcL2Vudmlyb25tZW50c1wvbG9nc1wvIl0sWyJlcSIsIiRidWNrZXQiLCJlbGFzdGljYmVhbnN0YWxrLXVzLXdlc3QtMi0zNTQ1MjEzMDA0NzMiXSxbInN0YXJ0cy13aXRoIiwiJHgtYW16LXNlY3VyaXR5LXRva2VuIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWZpbGVfbmFtZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkeC1hbXotbWV0YS10aW1lX3N0YW1wIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWJhdGNoX2lkIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRDb250ZW50LVR5cGUiLCIiXV0sImV4cGlyYXRpb24iOiIyMDE1LTA1LTI4VDIxOjM0OjQ3LjQyM1oifQ==\",\"security_token\":\"AQoDYXdzEDYaoAKdoeV3D+oXWBmz9Wl8nysRD9ctpVrfCSQOT2LwMrnANl4ikm3BkOUWeSQQ1\\\/cKoyH4C6L+O\\\/W+CHoEmHZDJCReLOtwVwHq73jyq4gSTRyv\\\/MuWKlioYj7Hm55WV9LnwlZ0oJgLIneYfZFv2dmZatdJoKzKCJYeuIsQf5cKMLiqb41gQRrf4aQCLwoaYBbGnFiKhXIRoTytUHvkJcLU8vTalxz+rrJ9tfIvNacRHP3HV3IHODTEbQuZQF1dkNhUxwIaSBTc7rWR6Hz0DArKLeensxhRYzlOTQaKZD+vAeeAGETVcyOFoDqA+mIYxXCpgA0HDjdhgUIPWG2KCT+O0U+m8CBZrSY5ioUOFoJLcndZ2slY8O+NEDCnC4T+Z\\\/m7Fhkg74WeqwU=\",\"signature\":\"K0\\\/3hU43vLTjohkTR1rWQxXV7N8=\"}","request_id":"2c051767-057d-11e5-8e74-1f88ed1df31a","resource_name":"AWSEBAutoScalingGroup","data":"2c051767-057d-11e5-8e74-1f88ed1df31a","instance_ids":["i-58e2bcae"],"command_timeout":"600","api_version":"1.0"}
+[2015-05-28T21:04:49.254Z] DEBUG [28790] : Checking if the command processor should execute...
+[2015-05-28T21:04:49.255Z] DEBUG [28790] : Checking whether the command is applicable to instance (i-58e2bcae)..
+[2015-05-28T21:04:49.255Z] INFO  [28790] : Command is applicable to this instance (i-58e2bcae)..
+[2015-05-28T21:04:49.255Z] DEBUG [28790] : Checking if the received command stage is valid..
+[2015-05-28T21:04:49.255Z] INFO  [28790] : No stage_num in command. Valid stage..
+[2015-05-28T21:04:49.255Z] INFO  [28790] : Command processor should execute command.
+[2015-05-28T21:04:49.255Z] DEBUG [28790] : Storing current stage..
+[2015-05-28T21:04:49.255Z] DEBUG [28790] : Stage_num does not exist. Not saving null stage. Returning..
+[2015-05-28T21:04:49.255Z] INFO  [28790] : Executing command: CMD-TailLogs...
+[2015-05-28T21:04:49.255Z] DEBUG [28790] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-05-28T21:04:49.256Z] DEBUG [28790] : Refreshing metadata..
+[2015-05-28T21:04:49.533Z] DEBUG [28790] : Refreshed environment metadata.
+[2015-05-28T21:04:49.533Z] DEBUG [28790] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-05-28T21:04:49.533Z] DEBUG [28790] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-05-28T21:04:49.534Z] INFO  [28790] : Found enabled addons: ["logpublish"].
+[2015-05-28T21:04:49.535Z] INFO  [28790] : Updating Command definition of addon logpublish.
+[2015-05-28T21:04:49.535Z] DEBUG [28790] : Loaded definition of Command CMD-TailLogs.
+[2015-05-28T21:04:49.535Z] INFO  [28790] : Executing command CMD-TailLogs activities...
+[2015-05-28T21:04:49.535Z] DEBUG [28790] : Setting environment variables..
+[2015-05-28T21:04:49.535Z] INFO  [28790] : Running AddonsBefore for command CMD-TailLogs...
+[2015-05-28T21:04:49.535Z] DEBUG [28790] : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2015-05-28T21:04:49.535Z] INFO  [28790] : Running stage 0 of command CMD-TailLogs...
+[2015-05-28T21:04:49.535Z] DEBUG [28790] : Loaded 1 actions for stage 0.
+[2015-05-28T21:04:49.535Z] INFO  [28790] : Running 1 of 1 actions: TailLogs...
+[2015-05-28T21:04:49.747Z] INFO  [28790] : Running AddonsAfter for command CMD-TailLogs...
+[2015-05-28T21:04:49.747Z] INFO  [28790] : Command CMD-TailLogs succeeded!
+[2015-05-28T21:04:49.748Z] INFO  [28790] : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[{"msg":"[Instance: i-58e2bcae] Successfully finished tailing 7 log(s)","severity":"INFO","timestamp":1432847089748}]}]}
+[2015-05-28T21:05:18.034Z] DEBUG [28814] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-05-28T21:05:18.034Z] INFO  [28814] : Received command CMD-TailLogs: {"command_name":"CMD-TailLogs","execution_data":"{\"aws_access_key_id\":\"ASIAJEETMGCZ42TRLJ2Q\",\"policy\":\"eyJjb25kaXRpb25zIjpbWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXB1Ymxpc2hfbWVjaGFuaXNtIiwiIl0sWyJlcSIsIiRhY2wiLCJwcml2YXRlIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJyZXNvdXJjZXNcL2Vudmlyb25tZW50c1wvbG9nc1wvIl0sWyJlcSIsIiRidWNrZXQiLCJlbGFzdGljYmVhbnN0YWxrLXVzLXdlc3QtMi0zNTQ1MjEzMDA0NzMiXSxbInN0YXJ0cy13aXRoIiwiJHgtYW16LXNlY3VyaXR5LXRva2VuIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWZpbGVfbmFtZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkeC1hbXotbWV0YS10aW1lX3N0YW1wIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWJhdGNoX2lkIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRDb250ZW50LVR5cGUiLCIiXV0sImV4cGlyYXRpb24iOiIyMDE1LTA1LTI4VDIxOjM1OjE2LjIyMloifQ==\",\"security_token\":\"AQoDYXdzEDYaoAKlnDefoBzOzl8jZGn6WBIbTfTp5j\\\/gBSIEtf+fdmPdkePY68DZRD\\\/4m2+U3VA1ROgUxdfdm0W99QcdHnhvPSvTGTelcvvQVkZcLwcke1DwZDP9qy1MAKejyl+4lnFjuanj+AFuREiqfoFPJjlN7HtgchQdKRFGrCHPDCVuQ2KF1x08pC+\\\/3gdrIXJNQdqlEjWKHeuXA1dx3gLkvVElQaSKYnljw6N290xxGB+REMB+C\\\/LjgJruKDi7f5kR9rRUMQ2Cm2SvIY68gUg9Ev1B15ZwLi+l50EzT8Xsc9Fh+xUUSlqcYTbajZjdLJK0IzhHt1z7DyEw6IBYwt0OCYqtGPZg8UcjCWea7FI0gFAfpOWkZWwK6Yo520luYbbkO5MeptMgjIaeqwU=\",\"signature\":\"713X2hhI90z+ZqUJF6TDyWWelQg=\"}","request_id":"3d351cd3-057d-11e5-8e74-1f88ed1df31a","resource_name":"AWSEBAutoScalingGroup","data":"3d351cd3-057d-11e5-8e74-1f88ed1df31a","instance_ids":["i-58e2bcae"],"command_timeout":"600","api_version":"1.0"}
+[2015-05-28T21:05:18.034Z] DEBUG [28814] : Checking if the command processor should execute...
+[2015-05-28T21:05:18.036Z] DEBUG [28814] : Checking whether the command is applicable to instance (i-58e2bcae)..
+[2015-05-28T21:05:18.036Z] INFO  [28814] : Command is applicable to this instance (i-58e2bcae)..
+[2015-05-28T21:05:18.036Z] DEBUG [28814] : Checking if the received command stage is valid..
+[2015-05-28T21:05:18.036Z] INFO  [28814] : No stage_num in command. Valid stage..
+[2015-05-28T21:05:18.036Z] INFO  [28814] : Command processor should execute command.
+[2015-05-28T21:05:18.036Z] DEBUG [28814] : Storing current stage..
+[2015-05-28T21:05:18.036Z] DEBUG [28814] : Stage_num does not exist. Not saving null stage. Returning..
+[2015-05-28T21:05:18.036Z] INFO  [28814] : Executing command: CMD-TailLogs...
+[2015-05-28T21:05:18.036Z] DEBUG [28814] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-05-28T21:05:18.037Z] DEBUG [28814] : Refreshing metadata..
+[2015-05-28T21:05:18.314Z] DEBUG [28814] : Refreshed environment metadata.
+[2015-05-28T21:05:18.314Z] DEBUG [28814] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-05-28T21:05:18.315Z] DEBUG [28814] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-05-28T21:05:18.315Z] INFO  [28814] : Found enabled addons: ["logpublish"].
+[2015-05-28T21:05:18.316Z] INFO  [28814] : Updating Command definition of addon logpublish.
+[2015-05-28T21:05:18.316Z] DEBUG [28814] : Loaded definition of Command CMD-TailLogs.
+[2015-05-28T21:05:18.316Z] INFO  [28814] : Executing command CMD-TailLogs activities...
+[2015-05-28T21:05:18.316Z] DEBUG [28814] : Setting environment variables..
+[2015-05-28T21:05:18.317Z] INFO  [28814] : Running AddonsBefore for command CMD-TailLogs...
+[2015-05-28T21:05:18.317Z] DEBUG [28814] : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2015-05-28T21:05:18.317Z] INFO  [28814] : Running stage 0 of command CMD-TailLogs...
+[2015-05-28T21:05:18.317Z] DEBUG [28814] : Loaded 1 actions for stage 0.
+[2015-05-28T21:05:18.317Z] INFO  [28814] : Running 1 of 1 actions: TailLogs...
 
 
 
